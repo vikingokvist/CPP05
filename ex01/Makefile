@@ -1,11 +1,11 @@
-NAME = MommyWhenIGrowUpIWantToBeABureaucrat
+NAME = FormUpMaggots
 
 CPP = c++
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
 
 RM = rm -rf
 
-SRCS = src/main.cpp src/Bureaucrat.cpp
+SRCS = src/main.cpp src/Bureaucrat.cpp src/Form.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
