@@ -8,10 +8,10 @@
 
 class RobotomyRequestForm : public AForm
 {
-    public:
+    private:
         std::string target;
 
-    private:
+    public:
         RobotomyRequestForm();
         RobotomyRequestForm(std::string input_target);
         RobotomyRequestForm(const RobotomyRequestForm &src);
@@ -19,7 +19,7 @@ class RobotomyRequestForm : public AForm
         ~RobotomyRequestForm();
         
         std::string getTarget() const;
-        void execute(Bureaucrat const &executor) const override;
+        void execute(Bureaucrat const &executor) const;
 };
 
 #endif

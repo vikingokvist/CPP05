@@ -32,7 +32,7 @@ void    ShrubberyCreationForm::execute(Bureaucrat const &executor) const {
     }
     else {
 
-        std::ofstream outfile((this->getTarget() + "_shrubbery"));
+        std::ofstream outfile((this->getTarget() + "_shrubbery").c_str());
         if (!outfile) {
 
             std::cerr << "Failed to create " << (this->getTarget() + "_shrubbery") << " file" << std::endl;
