@@ -17,9 +17,9 @@ int main()
         std::cout << bob << std::endl;
         std::cout << charlie << std::endl<< std::endl;
 
-        ShrubberyCreationForm shrubForm("Home");
+        ShrubberyCreationForm shrubForm("Botanic Garden");
         RobotomyRequestForm roboForm("Bender");
-        PresidentialPardonForm pardonForm("Ford Prefect");
+        PresidentialPardonForm pardonForm("Tax evation");
 
         try 
         {
@@ -81,6 +81,5 @@ int main()
     {
         std::cout << "Exception caught: " << e.what() << std::endl;
     }
-
     return (0);
 }
